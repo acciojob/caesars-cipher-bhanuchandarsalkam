@@ -33,9 +33,20 @@ const lookup = {
 
 function rot13(encodedStr) {
   let decodedArr = []; // Your Result goes here
+	let arraywords=encodedStr.split(" ");
+	for(let i=0;i<stringword.length;i++)
+	{
+		var newstring="";
+		var stringword=arrayword[i];
+		for(let j=0;j<stringword.length;j++)
+			{
+				newstring+=lookup[stringword.charAt(j)];
+			}
+	}
+	decodedArr.push(newstring);
   // Only change code below this line
 
-  return; //return decodedArr
+  return decodedstr; //return decodedArr
 }
 
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
