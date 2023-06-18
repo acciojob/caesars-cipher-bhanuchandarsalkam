@@ -42,8 +42,9 @@ function rot13(encodedStr) {
 			{
 				newstring+=lookup[stringword.charAt(j)];
 			}
-	}
+	
 	decodedArr.push(newstring);
+	}
   // Only change code below this line
 
   return decodedstr.join(); //return decodedArr
