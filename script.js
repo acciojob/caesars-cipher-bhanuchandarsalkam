@@ -34,7 +34,7 @@ const lookup = {
 function rot13(encodedStr) {
   let decodedArr = []; // Your Result goes here
 	var arraywords=encodedStr.split(" ");
-	for(let i=0;i<stringword.length;i++)
+	for(var i=0;i<stringword.length;i++)
 	{
 		var newstring="";
 		var stringword=arrayword[i];
